@@ -1,0 +1,25 @@
+{
+  "name": "i9n",
+  "version": "0.0.1",
+  "description": "Ruin words with i18nization (no relation to actual internationalization)",
+  "main": "i9n.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ifo/i9n.git"
+  },
+  "keywords": [
+    "i9n"
+  ],
+  "author": "Steve McCarthy <steve@redlua.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ifo/i9n/issues"
+  },
+  "homepage": "https://github.com/ifo/i9n#readme",
+  "devDependencies": {
+    "tape": "^4.8.0"
+  }
+}
