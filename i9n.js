@@ -1,7 +1,12 @@
 'use strict';
 
 const ruin = (input) => {
-  return input.split(' ').map(i9n).join(' ');
+  return input
+    .split('\n').map(l =>
+    l.split('\t').map(s =>
+      s.split(' ').map(i9n).join(' ')
+    ).join('\t')
+  ).join('\n');
 };
 
 const i9n = (word) => {
