@@ -1,6 +1,6 @@
 {
   "name": "i9n",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Ruin words with i18nization (no relation to actual internationalization)",
   "main": "i9n.js",
   "scripts": {
