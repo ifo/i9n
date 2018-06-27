@@ -20,10 +20,10 @@ Simply require i9n and you're ready to ruin some text. Literally:
 ```js
 const i9n = require('i9n');
 
-let ruinedText = i9n.ruin('this text is far to slow to read and write.');
+let ruinedText = i9n.ruin('this text is far too slow to read and write.');
 
 console.log(ruinedText);
-// t2s t2t i0s f1r t0o s2w t0o r2d a1d w3e.
+// t2s t2t i0s f1r t1o s2w t0o r2d a1d w3e.
 ```
 
 If you only want to see one word that has been made more efficient, you can use
